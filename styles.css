@@ -67,9 +67,11 @@ body{
     justify-content: center;
     padding: 16px 26px;
     border-radius: 5px;
+    transition: 1s;
     cursor: pointer;
 }
-button::hover{
+button:hover{
     background: red;
-    transition: 1s;
+    color: green;
+    transform: scale(1.1);
 }
